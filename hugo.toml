@@ -1,0 +1,56 @@
+baseurl = "/"
+title = "ditcoders"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "dtcdrs"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Raditya Jayawardana"
+  info = "BackEnd Developer and FOSS Enthusiast"
+  description = "DitCoders personal website"
+  keywords = "blog,developer,personal"
+  gravatar = "ditcoders@gmail.com"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/DitCodersIND/"
+[[params.social]]
+  name = "Telegram"
+  icon = "fa fa-telegram fa-2x"
+  weight = 2
+  url = "https://t.me/ditcoders"
+[[params.social]]
+  name = "Mastodon"
+  icon = "fa fa-mastodon fa-2x"
+  weight = 3
+  url = "https://fosstodon.org/@ditcoders"
