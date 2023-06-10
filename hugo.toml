@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "ditcoders"
+title = "DitCoders Indonesia"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -21,7 +21,7 @@ style = "github-dark"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2022
+  since = 2021
 
   enableTwemoji = true
 
