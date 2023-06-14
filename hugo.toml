@@ -14,9 +14,9 @@ style = "github-dark"
 [params]
   author = "Raditya Jayawardana"
   info = "BackEnd Developer and FOSS Enthusiast"
-  description = "DitCoders personal website"
+  description = "DitCoders, BackEnd Developer and FOSS Enthusiast"
   keywords = "blog,developer,personal"
-  gravatar = "raditya@tuta.io"
+  gravatar = "ditcoders@gmail.com"
 
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
@@ -54,3 +54,8 @@ style = "github-dark"
   icon = "fa fa-mastodon fa-2x"
   weight = 3
   url = "https://fosstodon.org/@ditcoders"
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope"
+  weight = 4
+  url = "mailto:raditya@tuta.io"
