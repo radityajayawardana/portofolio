@@ -40,7 +40,7 @@ style = "github-dark"
   name = "Github"
   icon = "fa fa-github fa-2x"
   weight = 1
-  url = "https://github.com/DitCodersIND/"
+  url = "https://github.com/DitCoders/"
 [[params.social]]
   name = "Telegram"
   icon = "fa fa-telegram fa-2x"
