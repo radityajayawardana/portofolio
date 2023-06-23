@@ -1,5 +1,5 @@
 baseurl = "/"
-title = "DitCoders Indonesia"
+title = "DITCODERS INDONESIA"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -12,14 +12,11 @@ disqusShortname = "dtcdrs"
 style = "github-dark"
 
 [params]
-  author = "Raditya Jayawardana"
-  info = "BackEnd Developer and FOSS Enthusiast"
+  author = "DitCoders"
+  info = ["Junior BackEnd Developer","FOSS Enthusiast"]
   description = "DitCoders, BackEnd Developer and FOSS Enthusiast"
   keywords = "blog,developer,personal"
   gravatar = "ditcoders@gmail.com"
-
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
 
   since = 2021
 
@@ -56,6 +53,14 @@ style = "github-dark"
   url = "https://fosstodon.org/@ditcoders"
 [[params.social]]
   name = "Email"
-  icon = "fa fa-envelope"
+  icon = "fa fa-envelope-square fa-2x"
   weight = 4
   url = "mailto:raditya@tuta.io"
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Donate"
+  weight = 2
+  url = "https://trakteer.id/ditcoders/tip"
